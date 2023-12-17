@@ -23,7 +23,7 @@ function bruteForceSearch(str1, str2) {
 		for(let j = 0; j < str1.length; j++){
 			if (substring[j] === str1[j]){
 				if (j == str1.length - 1){
-					results.push(i);
+					results.push(i + 1);
 				}
 				else{
 				continue;
